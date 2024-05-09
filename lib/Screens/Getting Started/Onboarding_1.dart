@@ -1,3 +1,4 @@
+import 'package:appointment_app/Screens/Getting%20Started/Onboardinf_2.dart';
 import 'package:flutter/material.dart';
 
 class BoardingOne extends StatefulWidget {
@@ -64,7 +65,7 @@ class _BoardingOneState extends State<BoardingOne> {
                   onPressed: () {
                     print("The Button is Pressed");
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => BoardingOne()));
+                        MaterialPageRoute(builder: (context) => BoardingTwo()));
                   },
                   child: Text(
                     'Get Strated',
