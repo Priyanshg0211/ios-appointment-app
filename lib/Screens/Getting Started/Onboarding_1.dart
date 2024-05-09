@@ -14,7 +14,6 @@ class _BoardingOneState extends State<BoardingOne> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        automaticallyImplyLeading: false,
       ),
       body: Column(
         children: [
