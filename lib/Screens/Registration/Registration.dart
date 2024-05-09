@@ -90,7 +90,7 @@ class _RegistrationState extends State<Registration> {
                         MaterialPageRoute(builder: (context) => Registration()));
                   },
                   child: Text(
-                    'Lgoin',
+                    'Sign In',
                     style: TextStyle(
                       fontFamily: 'Codenextbold',
                       fontWeight: FontWeight.bold,
