@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:appointment_app/Screens/Registration/SignUp.dart';
 import 'package:flutter/material.dart';
 
