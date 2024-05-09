@@ -1,3 +1,4 @@
+import 'package:appointment_app/Screens/Registration/Registration.dart';
 import 'package:flutter/material.dart';
 
 class BoardingTwo extends StatefulWidget {
@@ -64,7 +65,7 @@ class _BoardingTwoState extends State<BoardingTwo> {
                   onPressed: () {
                     print("The Button is Pressed");
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => BoardingTwo()));
+                        MaterialPageRoute(builder: (context) => Registration()));
                   },
                   child: Text(
                     'Next',
