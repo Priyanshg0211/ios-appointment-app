@@ -201,7 +201,7 @@ class _SignUpState extends State<SignUp> {
               height: 50,
             ),
             Padding(
-              padding: EdgeInsets.only(top: 150,), // Adjust the top padding here
+              padding: EdgeInsets.only(top: 150,), 
               child: Center(
                 child: Text(
                   'Already have an account',
