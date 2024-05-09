@@ -29,7 +29,7 @@ class _BoardingOneState extends State<BoardingOne> {
           Text(
             'Multiple delivery options',
             style: TextStyle(
-                fontFamily: 'Codenext',
+                fontFamily: 'Codenextbold',
                 fontWeight: FontWeight.bold,
                 color: Color(0xff007B5D),
                 fontSize: 18),
@@ -41,7 +41,7 @@ class _BoardingOneState extends State<BoardingOne> {
             'Enjoy best the market \n exchange rates',
             textAlign: TextAlign.center,
             style: TextStyle(
-                fontFamily: 'Codenext',
+                fontFamily: 'Codenextbold',
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
                 fontSize: 24),
@@ -69,7 +69,7 @@ class _BoardingOneState extends State<BoardingOne> {
                   child: Text(
                     'Get Strated',
                     style: TextStyle(
-                      fontFamily: 'Codenext',
+                      fontFamily: 'Codenextbold',
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
