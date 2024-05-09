@@ -1,4 +1,5 @@
 import 'package:appointment_app/Screens/Registration/SignIn.dart';
+import 'package:appointment_app/Screens/Registration/SignUp.dart';
 import 'package:flutter/material.dart';
 
 class Registration extends StatefulWidget {
@@ -63,10 +64,10 @@ class _RegistrationState extends State<Registration> {
                   onPressed: () {
                     print("The Button is Pressed");
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Registration()));
+                        MaterialPageRoute(builder: (context) => SignUp()));
                   },
                   child: Text(
-                    'Register',
+                    'Sign Up',
                     style: TextStyle(
                       fontFamily: 'Codenextbold',
                       fontWeight: FontWeight.bold,
