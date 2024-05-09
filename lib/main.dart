@@ -1,3 +1,4 @@
+import 'package:appointment_app/Screens/Getting%20Started/LaunchScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Appointment App'
+      debugShowCheckedModeBanner: false,
+      title: 'Appointment App',
+      home: LaunchScreen(),
     );
   }
 }
