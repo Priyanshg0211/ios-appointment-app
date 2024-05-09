@@ -1,4 +1,4 @@
-import 'package:appointment_app/Screens/Getting%20Started/LaunchScreen.dart';
+import 'package:appointment_app/Screens/Getting%20Started/Onboarding_1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Appointment App',
-      home: LaunchScreen(),
+      home: BoardingOne(),
     );
   }
 }
