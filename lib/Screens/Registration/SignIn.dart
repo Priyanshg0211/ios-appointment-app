@@ -90,7 +90,7 @@ class _SignInState extends State<SignIn> {
                         Icons.email,
                         color: Colors.grey,
                       ),
-                      border: InputBorder.none, // Remove underline
+                      border: InputBorder.none, 
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Color(0xffE7EAEB)),
                         borderRadius: BorderRadius.circular(5),
