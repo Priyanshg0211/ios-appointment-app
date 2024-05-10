@@ -1,5 +1,5 @@
 # Appointment Scheduling App
-The Appointment Scheduling App is a cross-platform mobile application developed to provide users with a seamless experience for scheduling appointments. This app is built using a combination of React Native and Firebase technologies, ensuring compatibility with both iOS and Android platforms while maintaining secure user authentication and data privacy.
+The Appointment Scheduling App is a cross-platform mobile application developed to provide users with a seamless experience for scheduling appointments. This app is built using a combination of Flutter and Firebase technologies, ensuring compatibility with both iOS and Android platforms while maintaining secure user authentication and data privacy.
 
 # Project Overview
 The goal of this project is to develop a user-friendly mobile application that allows users to schedule appointments effortlessly. The app offers the following key features:
