@@ -1,3 +1,4 @@
+import 'package:appointment_app/Screens/Registration/ForgotPassword.dart';
 import 'package:appointment_app/Screens/Registration/SignUp.dart';
 import 'package:flutter/material.dart';
 
@@ -168,7 +169,10 @@ class _SignInState extends State<SignIn> {
                   top: 30,
                 ),
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                     Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => ForgotPassword()));
+                  },
                   child: Text(
                     'Forgot Password?',
                     style: TextStyle(
