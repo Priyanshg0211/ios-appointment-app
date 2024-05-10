@@ -67,7 +67,7 @@ class _BoardingOneState extends State<BoardingOne> {
                         MaterialPageRoute(builder: (context) => BoardingTwo()));
                   },
                   child: Text(
-                    'Get Strated',
+                    'Get Started',
                     style: TextStyle(
                       fontFamily: 'Codenextbold',
                       fontWeight: FontWeight.bold,
